@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
+import { Route } from "react-router-dom";
+import { Highlights } from "./components/Highlights";
+import { About } from "./components/About";
 
 function App() {
+  const [apiData, setApiData] = useState([]);
+
+  useEffect(() => {
+    fetch("https://www.scorebat.com/video-api/v1/")
+      .then((res) => res.json())
+      .then((res) => {
+        setApiData(res);
+      });
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header data={apiData} />
+
+      <Route exact path="/" render={() => <Main data={apiData} />} />
+      <Route exact path="/about" component={About} />
+      <Route
+        path="/main/:title"
+        render={(routerProps) => (
+          <Highlights data={apiData} match={routerProps.match}/>
+        )}
+      />
+
     </div>
   );
 }
