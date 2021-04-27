@@ -95,3 +95,29 @@
   margin: 0;
 }
 
+.about-container{
+  width:700px;
+  margin: 0 auto;
+}
+
+.about-head {
+  color:rgb(218, 167, 72);
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size:45px;
+}
+
+.a {
+  color:rgb(218, 167, 72);
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size:25px;
+}
+
+.content-source {
+  color:turquoise;
+}
+
+.disclaimer {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size:20px;
+  color:tomato;
+}
