@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 export const Main = ({data}) => {
 
     return (
-        <div className="data-container">
+        <div className="container">
            {data.map(d => {
             return(
-                <div key={d.title}>
+                <div className="data-container"key={d.title}>
                     <Link className="match-title" to={`/main/${d.title}`}>{d.title}</Link>
                     <p className="img-container"><img src={d.thumbnail} alt="/" className="poster"/></p>
                 </div>

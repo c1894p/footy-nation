@@ -2,44 +2,59 @@
   text-align: center;
 }
 
-.data-container {
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+.data-container{
+  border:3px solid turquoise;
+  border-radius: 2rem;
+  margin:1rem 2rem;
+  background-color: rgb(218, 167, 72);;
+}
+
 .poster{
-  width:500px;
-  height:400px;
+  width:400px;
+  height:300px;
+  text-align: center;
+
 }
 
 .img-container{
-  margin-left: 10px;
+  width:500px;
+  background-color: rgb(218, 167, 72);;
 }
 
 .nav-container{
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .video-container {
   width:900px;
-  margin: 0 auto
+  margin: 0 auto;
+  margin-bottom:10px;
 }
 
 .head {
   font-family: 'Bungee Inline', cursive;
+  color:rgb(218, 167, 72);;
+  font-size:50px;
 }
 
 .sub-head {
   font-family: 'Bungee Inline', cursive;
+  color: rgb(218, 167, 72);;
 }
 
 .nav {
   font-size: 30px;
   text-decoration: none;
-  color:green
+  font-family: 'Baloo Tammudu 2', cursive;
+  color:turquoise
 }
 
 .nav:hover {
@@ -48,6 +63,35 @@
 
 
 .match-title {
-  
-  color:red
+  font-size: 20px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  background-color: rgb(218, 167, 72);;
+  color:rgb(12, 143, 132)
 }
+
+.highlight-title {
+  color:rgb(218, 167, 72);
+  font-family: 'Baloo Tammudu 2', cursive;
+  margin: 0;
+}
+
+.comp-title {
+  color:rgb(218, 167, 72);
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size:20px;
+  margin: 0;
+}
+
+.full-stats {
+  color:rgb(218, 167, 72);
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size:20px
+} 
+
+.video-title {
+  color:rgb(218, 167, 72);
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size:20px;
+  margin: 0;
+}
+

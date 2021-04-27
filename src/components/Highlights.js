@@ -12,16 +12,15 @@ export const Highlights = ({ data, match }) => {
           d.title === title && (
             <div key={d.id}>
               
-              <h1>{title}</h1>
-              <p>{d.competition.name}</p>
-              <a href={d.url}>Full Match Stats</a>
+              <h1 className="highlight-title">{title}</h1>
+              <p className="comp-title">{d.competition.name}</p>
+              <a className="full-stats" href={d.url}> Full Match Stats</a>
 
               <div>
+              <h4 className="video-title">🚨  Highlights 🚨 </h4>
                 {d.videos.map((video) => (
                   <div className="video-container">
-                    <h4>Highlights</h4>
                     <div dangerouslySetInnerHTML={{ __html: video.embed }} />
-      
                   </div>
                 ))}
               </div>
