@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.container {
+.data-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -21,4 +21,33 @@
   margin-bottom: 40px;
   display: flex;
   justify-content: space-evenly;
+}
+
+.video-container {
+  width:900px;
+  margin: 0 auto
+}
+
+.head {
+  font-family: 'Bungee Inline', cursive;
+}
+
+.sub-head {
+  font-family: 'Bungee Inline', cursive;
+}
+
+.nav {
+  font-size: 30px;
+  text-decoration: none;
+  color:green
+}
+
+.nav:hover {
+  text-decoration: underline;
+}
+
+
+.match-title {
+  
+  color:red
 }

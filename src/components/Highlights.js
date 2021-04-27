@@ -1,22 +1,34 @@
-import React  from "react";
-import ReactPlayer from 'react-player'
+import React from "react";
+
 
 export const Highlights = ({ data, match }) => {
   const title = match.params.title;
 
   console.log(data);
 
-
   return (
     <div>
-      {data.map((d)=> (d.title === title && 
-        <div key={d.id}>
-            <h1 >{title}</h1>
-            <p>{d.competition.name}</p>
-            <p>{d.embed}</p>
-            <ReactPlayer url='https://www.scorebat.com/embed/g/971927/?utm_source=api&utm_medium=match&utm_campaign=dflt'/>
-        </div>))}
+      {data.map((d) =>
+          d.title === title && (
+            <div key={d.id}>
+              
+              <h1>{title}</h1>
+              <p>{d.competition.name}</p>
+              <a href={d.url}>Full Match Stats</a>
 
+              <div>
+                {d.videos.map((video) => (
+                  <div className="video-container">
+                    <h4>Highlights</h4>
+                    <div dangerouslySetInnerHTML={{ __html: video.embed }} />
+      
+                  </div>
+                ))}
+              </div>
+
+            </div>
+          )
+      )}
     </div>
   );
 };
