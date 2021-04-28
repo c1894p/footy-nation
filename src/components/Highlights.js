@@ -1,8 +1,9 @@
 import React from "react";
+import {useParams} from 'react-router-dom'
 
 
-export const Highlights = ({ data, match }) => {
-  const title = match.params.title;
+export const Highlights = ({ data }) => {
+  const { title } = useParams()
 
   console.log(data);
 
