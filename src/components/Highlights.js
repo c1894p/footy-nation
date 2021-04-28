@@ -7,7 +7,7 @@ export const Highlights = ({ data, match }) => {
   console.log(data);
 
   return (
-    <div>
+    <div className="highlight-container">
       {data.map((d) =>
           d.title === title && (
             <div key={d.id}>

@@ -8,116 +8,158 @@
   justify-content: center;
 }
 
-.data-container{
-  border:0.3em solid turquoise;
+.data-container {
+  border: 0.3em solid turquoise;
   border-radius: 2rem;
-  margin:1rem 2rem;
-  background-color: rgb(218, 167, 72);;
+  margin: 1rem 2rem;
+  background-color: rgb(218, 167, 72);
+  animation-name: animateIn;
+  animation-duration: 700ms;
+  animation-delay: calc(var(--animation-order) * 1000ms);
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
 }
 
-.poster{
-  width:400px;
-  height:300px;
+@keyframes animateIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateY(-8px);
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+.poster {
+  width: 400px;
+  height: 300px;
   text-align: center;
-
 }
 
-.img-container{
-  width:500px;
-  background-color: rgb(218, 167, 72);;
+.img-container {
+  width: 500px;
+  background-color: rgb(218, 167, 72);
 }
 
-.nav-container{
+.nav-container {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .video-container {
-  width:900px;
+  width: 900px;
   margin: 0 auto;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .head {
-  font-family: 'Bungee Inline', cursive;
-  color:rgb(218, 167, 72);;
-  font-size:50px;
+  font-family: "Bungee Inline", cursive;
+  color: rgb(218, 167, 72);
+  font-size: 50px;
 }
 
 .sub-head {
-  font-family: 'Bungee Inline', cursive;
-  color: rgb(218, 167, 72);;
+  font-family: "Bungee Inline", cursive;
+  color: rgb(218, 167, 72);
 }
 
 .nav {
   font-size: 30px;
   text-decoration: none;
-  font-family: 'Baloo Tammudu 2', cursive;
-  color:turquoise
+  font-family: "Baloo Tammudu 2", cursive;
+  color: turquoise;
 }
 
 .nav:hover {
   text-decoration: underline;
 }
 
-
 .match-title {
   font-size: 20px;
-  font-family: 'Baloo Tammudu 2', cursive;
-  background-color: rgb(218, 167, 72);;
-  color:rgb(12, 143, 132)
+  font-family: "Baloo Tammudu 2", cursive;
+  background-color: rgb(218, 167, 72);
+  color: rgb(12, 143, 132);
 }
 
 .highlight-title {
-  color:rgb(218, 167, 72);
-  font-family: 'Baloo Tammudu 2', cursive;
+  color: rgb(218, 167, 72);
+  font-family: "Baloo Tammudu 2", cursive;
   margin: 0;
 }
 
 .comp-title {
-  color:rgb(218, 167, 72);
-  font-family: 'Baloo Tammudu 2', cursive;
-  font-size:20px;
+  color: rgb(218, 167, 72);
+  font-family: "Baloo Tammudu 2", cursive;
+  font-size: 20px;
   margin: 0;
 }
 
 .full-stats {
-  color:rgb(218, 167, 72);
-  font-family: 'Baloo Tammudu 2', cursive;
-  font-size:20px
-} 
+  color: rgb(218, 167, 72);
+  font-family: "Baloo Tammudu 2", cursive;
+  font-size: 20px;
+}
 
 .video-title {
-  color:rgb(218, 167, 72);
-  font-family: 'Baloo Tammudu 2', cursive;
-  font-size:20px;
+  color: rgb(218, 167, 72);
+  font-family: "Baloo Tammudu 2", cursive;
+  font-size: 20px;
   margin: 0;
 }
 
-.about-container{
-  width:700px;
+.about-container {
+  width: 700px;
   margin: 0 auto;
+  animation: aboutFade ease-in 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes aboutFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .about-head {
-  color:rgb(218, 167, 72);
-  font-family: 'Baloo Tammudu 2', cursive;
-  font-size:45px;
+  color: rgb(218, 167, 72);
+  font-family: "Baloo Tammudu 2", cursive;
+  font-size: 45px;
 }
 
 .a {
-  color:rgb(218, 167, 72);
-  font-family: 'Baloo Tammudu 2', cursive;
-  font-size:25px;
+  color: rgb(218, 167, 72);
+  font-family: "Baloo Tammudu 2", cursive;
+  font-size: 25px;
 }
 
 .content-source {
-  color:turquoise;
+  color: turquoise;
 }
 
 .disclaimer {
-  font-family: 'Baloo Tammudu 2', cursive;
-  font-size:20px;
-  color:tomato;
+  font-family: "Baloo Tammudu 2", cursive;
+  font-size: 20px;
+  color: tomato;
+}
+
+
+.highlight-container {
+  animation: highlightFade ease-in 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes highlightFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
