@@ -24,9 +24,7 @@ function App() {
       <Route exact path="/" render={() => <Main data={apiData} />} />
       <Route exact path="/about" component={About} />
       <Route
-        path="/main/:title"
-        // routerProps
-        // match={routerProps.match}
+        path="/:title"
         render={() => (
           <Highlights data={apiData} />
         )}
