@@ -6,6 +6,7 @@ Footy nation is place for fútbol/soccer fans all around the world. Show casing 
 
 # Screenshots
 
+
 # Technologies Used
 This project is written in Reac
 
@@ -26,9 +27,8 @@ __Stretch Goals__
 # Component Hierachy
 
 # Wireframes
-#### Home Page
+#### Landing Page
 ![Screen Shot 2021-04-12 at 12 31 08 PM](https://user-images.githubusercontent.com/81186889/114429143-06b1b100-9b8b-11eb-9c5d-06c03c3bd924.png)
-#### Questions Page
+#### About Page
 ![Screen Shot 2021-04-12 at 12 31 16 PM](https://user-images.githubusercontent.com/81186889/114429168-0e715580-9b8b-11eb-8a78-cae8c1447299.png)
-#### Results Page
-![Screen Shot 2021-04-12 at 12 31 23 PM](https://user-images.githubusercontent.com/81186889/114429178-103b1900-9b8b-11eb-8e26-4636505e191f.png)
+
