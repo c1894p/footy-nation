@@ -5,7 +5,9 @@ __An app for fútbol/soccer fans to catch up on the latest highlights for league
 Footy nation is place for fútbol/soccer fans all around the world. Show casing the most recent goals and highlights from a number of fútbol leagues and tournaments including the Premier League, Champions League, La Liga, Serie A, Europa League and many more!
 
 # Screenshots
+#### Landing Page
 ![Screen Shot 2021-05-01 at 12 24 41 PM](https://user-images.githubusercontent.com/81186889/116788995-a53e7d00-aa7a-11eb-9c27-a27a8d583dde.png)
+#### About Page
 ![Screen Shot 2021-05-01 at 12 24 49 PM](https://user-images.githubusercontent.com/81186889/116789002-ac658b00-aa7a-11eb-89d0-cbd3e91ae7d2.png)
 
 
