@@ -15,13 +15,13 @@ Footy nation is place for fútbol/soccer fans all around the world. Show casing 
 - JavaScript/HTML/CSS
 - React.js library
 - Heroku
-- (https://www.scorebat.com/video-api/ "ScoreBate Video API")
+- ScoreBate Video API
 
 # Installation Instructions
 - Fork this repo and clone it to your machine
-- Then you need to use npm install to download the React dependencies 
-- After that you need to install react-router for this app to be functional
-- After that have fun and make your own edits!
+- Then use npm install to download the React dependencies 
+- After that install react-router for this app to be functional
+- Lastly have fun and make your own edits!
 
 # User Stories
 __MVP Goals__
@@ -31,14 +31,15 @@ __MVP Goals__
 - As a user, I would like to be able to click on the listed match and see highlights from the match
 - As a user, I would like to be able to be able to watch the video elsewhere if playback on the site limited
 
-
 __Stretch Goals__
 - As a user, I would like to be able to search the listed matches based on team names
 - As a user, I would like to be able to let the site know my favorite team so I can see those match highlights first
 
 # Wireframes
 #### Landing Page
-![Screen Shot 2021-04-12 at 12 31 08 PM](https://user-images.githubusercontent.com/81186889/114429143-06b1b100-9b8b-11eb-9c5d-06c03c3bd924.png)
+![Screen Shot 2021-05-01 at 1 07 05 PM](https://user-images.githubusercontent.com/81186889/116789711-2b0ff780-aa7e-11eb-8419-4bf0e411c4cf.png)
+
 #### About Page
-![Screen Shot 2021-04-12 at 12 31 16 PM](https://user-images.githubusercontent.com/81186889/114429168-0e715580-9b8b-11eb-8a78-cae8c1447299.png)
+![Screen Shot 2021-05-01 at 1 07 12 PM](https://user-images.githubusercontent.com/81186889/116789712-2e0ae800-aa7e-11eb-9a06-90d59e7f8554.png)
+
 
