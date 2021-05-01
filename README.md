@@ -38,8 +38,13 @@ __Stretch Goals__
 # Wireframes
 #### Landing Page
 ![Screen Shot 2021-05-01 at 1 07 05 PM](https://user-images.githubusercontent.com/81186889/116789711-2b0ff780-aa7e-11eb-8419-4bf0e411c4cf.png)
+<<<<<<< HEAD
 
 #### About Page
 ![Screen Shot 2021-05-01 at 1 07 12 PM](https://user-images.githubusercontent.com/81186889/116789712-2e0ae800-aa7e-11eb-9a06-90d59e7f8554.png)
 
+=======
+>>>>>>> readMe 3
 
+#### About Page
+![Screen Shot 2021-05-01 at 1 07 12 PM](https://user-images.githubusercontent.com/81186889/116789712-2e0ae800-aa7e-11eb-9a06-90d59e7f8554.png)
