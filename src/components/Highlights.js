@@ -19,7 +19,7 @@ export const Highlights = ({ data }) => {
               <h4 className="video-title">🚨  Highlights 🚨 </h4>
                 {d.videos.map((video) => (
                   <div className="video-container">
-                    <div dangerouslySetInnerHTML={{ __html: video.embed }} />
+                    <div className="video" dangerouslySetInnerHTML={{ __html: video.embed }} />
                   </div>
                 ))}
               </div>

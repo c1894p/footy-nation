@@ -218,7 +218,7 @@
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 550px) and (min-width: 451px)  {
   .highlight-title {
     font-size: 20px;
   }
