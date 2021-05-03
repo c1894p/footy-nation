@@ -5,8 +5,6 @@ import {useParams} from 'react-router-dom'
 export const Highlights = ({ data }) => {
   const { title } = useParams()
 
-  console.log(data);
-
   return (
     <div className="highlight-container">
       {data.map((d) =>
